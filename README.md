@@ -12,6 +12,7 @@ The goal of this project is to build an accurate model for recognizing handwritt
 - [Features](#features)
 - [Dataset Source](#dataset-source)
 - [Results](#results)
+- [Kaggle Notebook](#kaggle-notebook)
 
 ## Project Description
 
@@ -35,3 +36,7 @@ The dataset used for this project is sourced from Kaggle. You can find the datas
 - **Accuracy After Image Augmentation**: 72%
 - **VGG19 Transfer Learning Accuracy**: 85%
 - **Final Model Accuracy After Hyperparameter Tuning**: 91.7%
+
+## Kaggle Notebook
+
+You can view and run the project notebook on Kaggle: [Handwritten Character Recognition](https://www.kaggle.com/code/sujaymann/handwritten-character-classification-2)
