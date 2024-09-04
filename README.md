@@ -1,6 +1,6 @@
 # Handwritten Character Recognition with Transfer Learning
 
-This project demonstrates a handwritten character recognition system using transfer learning with the VGG19 model and image augmentation techniques. The model's performance was further optimized with hyperparameter tuning to achieve a final accuracy of 91.7% from a baseline of 68%.
+This project demonstrates a handwritten character recognition system using transfer learning with the VGG19 model and image augmentation techniques. The model's performance was further optimized with hyperparameter tuning to achieve a final accuracy of 91% from a baseline of 68%.
 
 ## Project Overview
 
@@ -16,14 +16,14 @@ The goal of this project is to build an accurate model for recognizing handwritt
 
 ## Project Description
 
-The project began with a custom neural network model for handwritten character recognition, achieving an initial accuracy of 68%. By generating more images using image augmentation, accuracy was improved. Further optimization was achieved using the VGG19 pre-trained model for transfer learning, resulting in an accuracy of 85%. Finally, hyperparameter tuning with Keras Tuner was used to enhance the model’s performance to a final accuracy of 91.7%.
+The project began with a custom neural network model for handwritten character recognition, achieving an initial accuracy of 68%. By generating more images using image augmentation, accuracy was improved. Further optimization was achieved using the VGG19 pre-trained model for transfer learning, resulting in an accuracy of 85%. Finally, hyperparameter tuning with Keras Tuner was used to enhance the model’s performance to a final accuracy of 91%.
 
 ## Features
 
 - **Custom Model Development**: Initial model architecture with 68% accuracy.
 - **Image Augmentation**: Techniques applied to generate new training images and improve model generalization.
 - **Transfer Learning**: Utilized VGG19 pre-trained model to boost accuracy to 85%.
-- **Hyperparameter Tuning**: Optimized model parameters using Keras Tuner to achieve 91.7% accuracy.
+- **Hyperparameter Tuning**: Optimized model parameters using Keras Tuner to achieve 91% accuracy.
 
 ## Dataset Source
 
@@ -35,7 +35,7 @@ The dataset used for this project is sourced from Kaggle. You can find the datas
 - **Initial Custom Model Accuracy**: 68%
 - **Accuracy After Image Augmentation**: 72%
 - **VGG19 Transfer Learning Accuracy**: 85%
-- **Final Model Accuracy After Hyperparameter Tuning**: 91.7%
+- **Final Model Accuracy After Hyperparameter Tuning**: 91%
 
 ## Kaggle Notebook
 
