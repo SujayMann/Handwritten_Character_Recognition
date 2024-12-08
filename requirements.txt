@@ -2,3 +2,4 @@ keras==3.3.3
 flask
 numpy
 tensorflow
+gunicorn
