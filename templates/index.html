@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input[type="file"] {
+            margin: 20px 0;
+        }
+        .prediction-text {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Classification App</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <!-- Upload button -->
+        <input type="file" name="file" accept="image/*">
+        <button type="submit">Classify</button>
+    </form>
+
+    <!-- Prediction Text -->
+    <div class="prediction-text">{{ prediction_text }}</div>
+</body>
+</html>
